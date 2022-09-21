@@ -47,3 +47,10 @@ img {
 border-radius: 50%;
 border: 15px solid yellow;
 }
+
+footer {
+background-color: #405237;
+height: 50px;
+font-size: 30px;
+text-align: center;
+}
