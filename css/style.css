@@ -13,6 +13,10 @@ color: gray;
 font-family: Jost, Arial, sens-serif
 }
 
+h2{
+text-align:left;
+}
+
 border img{
 border-radius 250px;
 width: 500px;
