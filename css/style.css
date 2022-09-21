@@ -1,0 +1,20 @@
+body {
+margin: 0;}
+
+header {
+background-color: #405237;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+header h1{
+color: gray;
+font-family: Jost, Arial, sens-serif
+}
+
+border img{
+border-radius 250px;
+width: 500px;
+border: 10px solid yellow;
+}
