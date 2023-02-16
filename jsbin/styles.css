@@ -1,0 +1,41 @@
+body {
+  background-color: #d9b38c;
+}
+
+h1 {
+  background-color: #3bb9ff;
+  border: 4px solid #1589ff;
+  border-radius: 4px;
+}
+
+h3 {
+  background-color: white;
+}
+
+.title {
+  border-radius: 5px 5px 0 0;
+}
+
+footer {
+  background-color: lightgrey;
+}
+
+#ingredients {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+#instructions {
+  background-color: #ff8a80;
+  border-radius: 5px;
+}
+
+#nutrition {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+#win {
+  background-color: orange;
+  border-radius: 5px;
+}
