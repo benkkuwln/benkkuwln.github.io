@@ -1,17 +1,32 @@
 body {
   background-color: #d9b38c;
+  font-family: Arial, helvetica, sans-serif;
 }
+
+/* COMPANY NAME */
 
 h1 {
   background-color: #3bb9ff;
   border: 4px solid #1589ff;
   border-radius: 4px;
   padding: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
 }
 
 h3 {
   background-color: white;
   padding: 10px 5px;
+}
+
+/* COMPANY SLOGAN */
+
+#slogan {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
 }
 
 img {
@@ -22,12 +37,13 @@ td {
   padding-left: 30px;
 }
 
-.title {
-  border-radius: 5px 5px 0 0;
+th {
+  text-align: left;
 }
 
-footer {
-  background-color: lightgrey;
+.title {
+  border-radius: 5px 5px 0 0;
+  font-weight: 300;
 }
 
 #ingredients {
@@ -48,4 +64,10 @@ footer {
 #win {
   background-color: orange;
   border-radius: 5px;
+}
+
+/* FOOTER DETAILS */
+
+footer {
+  background-color: lightgrey;
 }
