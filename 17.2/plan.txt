@@ -2,6 +2,7 @@ ZUU selain,
 #5e9cff sini
 #53ba45 vihree
 #c7f5c1 valkoharmavihree
+#dbfad7 valovalkovihree
 
 tupla h1 kotisivu
 font family

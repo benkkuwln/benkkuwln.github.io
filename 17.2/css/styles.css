@@ -1,0 +1,20 @@
+body {
+  background-color: #dbfad7;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.navbar {
+  background-color: #c7f5c1;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.zuuh1 {
+  text-align:center;
+  font-size: 30px;
+}
