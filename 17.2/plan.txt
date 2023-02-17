@@ -1,0 +1,10 @@
+ZUU selain, 
+#5e9cff sini
+#53ba45 vihree
+#c7f5c1 valkoharmavihree
+
+tupla h1 kotisivu
+font family
+
+&copy;
+header, button, koti... html
