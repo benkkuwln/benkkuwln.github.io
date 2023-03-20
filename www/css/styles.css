@@ -1,0 +1,110 @@
+nav {
+    background-color: #c04f0e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 10vh;
+    min-height: 70px;
+    font-size: 40px;
+    border: #a90329;
+    border-radius: 30px;
+    border-style: double;
+    border-width: 10px;
+  }
+
+  nav span.title {
+    color: #ffc400;
+    padding-left: 15px;
+  }
+  
+  nav span.version {
+    font-size: 9px;
+    color:#ffc14d;
+    padding-left: 23px;
+    padding-top: 5px;
+    display: block;
+    position: relative;
+    top: -9px;
+    bottom: 5px;
+  }
+
+  body {
+  background: #a90329;
+  background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%);
+  background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
+  }
+  
+  .content {
+    background-color: white;
+  }
+  
+  footer,
+  #content {
+    text-align: center;
+    margin: 50px auto 0 auto;
+  }
+  
+  footer {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .yo {
+    border-radius: 100px;
+    border-width: 10px;
+    border-style: double;
+    border-color: #c04f0e;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .banner {
+    color: #ffe600;
+    font-family: Arial;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .top-left {
+    float: right;
+  }
+  
+  @media(max-width: 640px) {
+    .float-right {
+      float: initial;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media(max-width: 320px) {
+    .banner {
+    font-family: cursive;
+    transition: font-family linear;
+    }
+  }
+
+  .left {
+    float: right;
+    margin-right: 1.5em;
+  }
+
+
+  @media only screen and (min-width: 400px) {
+    div.para {
+      font-size: 78px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    div.para {
+      font-size: 30px;
+    }
+  }
