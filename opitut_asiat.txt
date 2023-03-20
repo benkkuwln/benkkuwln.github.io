@@ -1,0 +1,20 @@
+Miten rakentaa HTML sivun
+Miten liittää css tiedostoja
+Miten liittää javascript tiedostoja
+
+HTML elementit
+HTML classes/CSS classes
+HTML ID /CCS ID
+
+Spesifisyys
+!important
+Responsiivinen muotoilu
+
+max ja min leveys
+float
+padding
+@media
+position
+
+colorzilla
+awesome font

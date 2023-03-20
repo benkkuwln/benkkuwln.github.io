@@ -1,90 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 body {
-margin: 0;}
-
-header {
-background-color: #405237;
-font-family: 'Jost', sans-serif;
-text-align: center;
-padding-top: 20px;
-padding-bottom: 20px;
+  background-color: blue;
 }
 
-header h1{
-color: #181e15;
-font-size: 75px;
+h1 {
+  color: maroon;
+  margin-left: 40px;
 }
+</style>
+</head>
+<body>
 
-h2{
-padding-top: 15px;
-padding-bottom: 15px;
-color: #181e15;
-font-size: 50px;
-}
+<h1>no</h1>
+<p>no. yea.</p>
 
-ol{
-font-size: 30px;
-color: #E4f7b9;
-}
-
-.list1 {
-list-style-position: inside;
-}
+</body>
+</html>
 
 
-ul{
-font-size: 30px;
-color: #E4f7b9;
-}
 
-.list2 {
-list-style-position: inside;
-}
 
-p {
-font-size: 35px;
-color: #d5ff80;
-}
 
-img {
-border-radius: 50%;
-border: 20px solid #181e15;
-}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
 
-div {
-background-color: #405237;
-padding-top: 10px;
-padding-bottom: 5px;
-height: 100%;
-width: 100%;
-}
+<h1>fortnite</h1>
+<p>fork and knife.</p>
 
-footer {
-background-color: #405237;
-height: 50px;
-font-size: 30px;
-text-align: center;
-}
+</body>
+</html>
 
-a:link {
-color: #F6FF00;
-background-color: transparent;
-text-decoration: none;
-}
 
-a:visited {
-color: #FFDB00;
-background-color: transparent;
-text-decoration: none;
-}
 
-a:hover {
-color: orange;
-background-color: transparent;
-text-decoration: none;
-}
 
-a:active {
-color: green
-background-color: transparent;
-text-decoration: none;
-}
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:red;text-align:center;">yes</h1>
+<p style="color:yellow;">sir.</p>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:orange;text-align:center;">head thikssad sad</h1>
+<p style="color:red;">heisenberg.</p>
+
+</body>
+</html>
