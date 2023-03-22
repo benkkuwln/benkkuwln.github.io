@@ -6,6 +6,7 @@
   <title>ZUU</title>
 </head>
 <body>
+  <h2 id="welcome"></h2>
   <div class="navbar">
   <nav>
     <img src="https://i.ibb.co/VMbWYHg/zuu.png" width="10%" />
@@ -21,7 +22,14 @@
   <img src="https://i.ibb.co/VMbWYHg/zuu.png" width="40%" class="center"/>
   <h1>Maailman kevyin internet-selain ZUU</h1>
   <p>ZUU on open-source projekti, joka pyrkii täysi internet turvallisuuteen hidastamatta toimintaa ja toimittamaan ennen näkemättömiä vauhteja. Täysin ilmaiseksi.</p>
-  <h2>Ilmoittaudu toivelistalle!
-    <script>src="scripts/welcome.js"</script>
+  <h2>Ilmoittaudu toivelistalle!</h2>H
+<script>
+  var name = prompt("What is your name?")
+  var welcomeNode = document.getElementById("welcome")
+  
+  if(name.toLowerCase() == "benkku") {
+      welcomeNode.innerText = "Welcome to your website";
+  }
+  </script>
 </body>
 </html>
