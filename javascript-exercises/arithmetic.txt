@@ -1,0 +1,7 @@
+bedmas =
+brackets
+exponents
+division
+multiplication
+addition
+subtraction

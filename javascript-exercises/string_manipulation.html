@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Manipulation</title>
+</head>
+<body>
+    
+<h1 id="sentence">
+    dyuofdfdf dfdfdfdfdpyuiofudfu idhfuhfgggggggggg ggggggggggggggg ggggggggggggggg gggggggggggggggggggg
+</h1>
+
+<script>
+
+var sentenceNode = document.getElementById("sentence");
+var sentence = sentenceNode.innerText;
+
+var upperSentence = sentence.toUpperCase();
+var lowerSentence = sentence.toLowerCase();
+var firstElevenChars = sentence.substring(0, 11);
+
+var allWords = sentence.split (" ");
+var bracketWords = "(" + allWords.join(")(") + ")"
+
+var firstThreeWords = allWords.slice(0, 3)
+
+var middleWords = allWords.slice(5, 10)
+var makeSentence = middleWords.join(5, 10)
+
+sentenceNode.innerText = makeSentence
+
+console.log("Sentence", sentence);
+</script>
+
+
+
+
+</body>
+</html>

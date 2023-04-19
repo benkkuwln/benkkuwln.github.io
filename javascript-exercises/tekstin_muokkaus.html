@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekstin Muokkaus</title>
+</head>
+
+<body>
+<h1 id="text2"></h1>
+
+<!-- Button perms -->
+
+<button id="blue">Blue</button>
+<button id="red">Red</button>
+<button id="green">Green</button>
+<button id="black">Return</button>
+<p>Change color</p> <br>
+
+<!-- Button -->
+
+<button id="bigger">Largen</button>
+<button id="smaller">Smallen</button>
+<button id="normal">Return</button>
+<p>Change text size</p>
+</body>
+<script>
+
+/* Input prompt */
+
+var text = prompt("Input your text"); document.getElementById("text2").innerHTML = text;
+
+/* Colors (rgb) */
+
+document.getElementById("red").onclick = function(){
+document.getElementById("text2").style.color = 'red';
+}
+document.getElementById("green").onclick = function(){
+document.getElementById("text2").style.color = 'green';
+}
+document.getElementById("blue").onclick = function(){
+document.getElementById("text2").style.color = 'blue';
+}
+document.getElementById("black").onclick = function(){
+document.getElementById("text2").style.color = 'black';
+}
+
+/* Make text bigger */
+
+document.getElementById("bigger").onclick = function(){
+document.getElementById("text2").style.fontSize = '64px';
+}
+/* Make text smaller */
+
+document.getElementById("smaller").onclick = function(){
+document.getElementById("text2").style.fontSize = '32px';
+}
+
+/* Make text normal */
+
+document.getElementById("normal").onclick = function(){
+document.getElementById("text2").style.fontSize = '48px';
+}
+
+</script>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope</title>
+</head>
+<body>
+    
+<script>
+
+    // This is a global variable
+    var course = "JavaScript for Beginners";
+
+    // This is a global function
+    function doAthing() {
+        // This is a LOCAL variable
+        // This is only accessible in its local ecosystem
+        var student = "Benjamin Wallenius"
+        // Two console logs
+        console.log("!!!", student)
+        console.log("!!!", course)
+
+    }
+    // Execute the function
+    doAthing(course)
+    // Console.log
+    console.log("OUT OF SCOPE:", student)
+
+</script>
+
+</body>
+</html>

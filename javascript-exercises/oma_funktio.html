@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Exercise</title>
+</head>
+<body> 
+    <h2>Oma Funktio</h2>
+    <p>This function calculates A times B minus C. 7 x 32 - 100:</p>
+    <p id="demo"></p>
+    
+    <script>
+
+    var x = myFunction(7, 32, 100);
+    document.getElementById("demo").innerHTML = x;
+    
+    function myFunction(a, b, c) {
+      return a * b - c;
+    }
+
+    </script>
+
+</body>
+</html>

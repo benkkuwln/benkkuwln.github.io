@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini Project #2</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="link"></h1>
+<script>
+var url = prompt("link");
+var link = document.getElementById("link");
+    if(url.includes("https")) {
+        link.innerHTML = url
+    } else {
+    link.innerHTML = "http://" + url + ".com"
+    }
+</script>
+</body>
+</html>

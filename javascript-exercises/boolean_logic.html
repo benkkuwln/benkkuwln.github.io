@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean Logic</title>
+</head>
+<body>
+    
+<script>
+
+    var name = prompt("Enter name")
+
+    if(name.toLowerCase() == "stitch") {
+        var isDog = true;
+    } else {
+        var isDog = false;
+    }
+
+//Some other logic in here, based on the variable isDog
+
+    if (isDog) {
+        alert("You're a dog!")
+    } else {
+        alert("You're NOT a dog!")
+    }
+
+    if(isDog == false) {
+        alert("Not a dog")
+    }
+
+    // If isDog is false
+    if(!isDog) { }
+    
+    if(isDog != true) {
+        // This is the false block to execute
+    }
+
+    if(!isDog) {
+        //false
+    }
+
+    var isDog = 1; //true
+    var isDog = 0; //false
+
+</script>
+
+</body>
+</html>

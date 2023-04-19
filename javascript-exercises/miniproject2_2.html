@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini Project #2</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="link"></h1>
+<script>
+
+var url = prompt("Enter a URL");
+
+if(url.substr(0, 4) != "http") {
+    url = "http://" + url
+}
+
+var spanNode = document.getElementById("link");
+var html = "<a href='" + url + "'>" + url + "</a>"
+spanNode.innerHTML = html;
+
+</script>
+</body>
+</html>

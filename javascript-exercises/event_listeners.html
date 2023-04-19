@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn btn-primary btn-lg js-button">
+        CLICK ME
+    </button>
+
+<div id="totalClicks"></div>   
+    
+<script>
+
+    var btn = document.querySelector(".js-button")
+    var totalClicks = 0
+    // Changed so it turns into a function
+    // btn.addEventListener('click', function(event) {
+    function addClicks(event) {
+        // do something in here
+        totalClicks = totalClicks + 1;
+        // totalClicks++;
+        document.getElementById("totalClicks").innerText = totalClicks
+    }
+    
+    btn.addEventListener('click', addClicks)
+
+</script>
+
+</body>
+</html>

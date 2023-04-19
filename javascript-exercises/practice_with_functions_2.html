@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice With Functions 2</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+<script>
+
+var customNum = doMath(num);
+console.log(customNum)
+
+function $(Id) {
+    console.log("Id is:", id);
+    return document.getElementById(id)
+}
+
+function doMath(num) {
+    num = Number(num);
+    if(num) {
+        //Is a real number
+        var newNumber = (num + 100) / 4;
+        return newNumber
+    } else {
+        //Not a real number
+        return false;
+    }
+}
+
+var customNum = doMath("yo")
+console.log(customNum)
+
+var customNum = doMath(30)
+console.log(customNum)
+
+var customNum = doMath(50)
+console.log(customNum)
+
+var customNum = doMath(501)
+console.log(customNum)
+
+var customNum = doMath(23)
+console.log(customNum)
+
+var customNum = doMath(-90)
+console.log(customNum)
+
+var customNum = doMath(3)
+console.log(customNum)
+
+var customNum = doMath(343);
+
+var title = $("title");
+title.innerText = "Custom inner text"
+
+var customElem = $("customID")
+customElem.innerHTML = "Something Here"
+
+//Celsius to Fahrenheit
+function cToF(c_num) {
+    var fahrenheit = (c_num * 1.8) + 32;
+    return fahrenheit;
+}
+
+var zero = cToF(0); console.log(zero);
+var twenty = cToF(20); console.log(twenty)
+var boiling = cToF(20); console.log(boiling)
+var freezing = cToF(20); console.log(freezing)
+
+</script>
+
+</body>
+</html>
