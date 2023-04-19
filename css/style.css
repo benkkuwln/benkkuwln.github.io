@@ -84,7 +84,7 @@ text-decoration: none;
 }
 
 a:active {
-color: green
+color: green;
 background-color: transparent;
 text-decoration: none;
 }
