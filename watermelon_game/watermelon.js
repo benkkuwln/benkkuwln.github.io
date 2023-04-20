@@ -35,14 +35,14 @@ function inputs(){
 }
 
 function drawPurBlob(){
-    ctx.fillStyle = "purple";
+    ctx.fillStyle = "pink" ;
     ctx.beginPath();
-    ctx.arc(x,y, radius,0, Math.PI * 2);
+    ctx.arc(x,y, radius,0, Math.PI * 1);
     ctx.fill();
 }
 
 function clearScreen(){
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "grey";
     ctx.fillRect(0,0, canvas.width, canvas.height);
 }
 
