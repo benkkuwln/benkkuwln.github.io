@@ -1,0 +1,22 @@
+#gameArea {
+    border:4px solid #f4e8fc; 
+    border-radius:20px;
+    box-shadow: 0 0 40px #727AFF;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        0deg,
+        #1a08c0 0%,
+        #4a53f0 100%
+    );
+    text-align: center;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+h1, h2 {
+    font-family: Comic Sans MS;
+    color: pink;
+    text-shadow: 0 0 20px #a3a8ff;
+}

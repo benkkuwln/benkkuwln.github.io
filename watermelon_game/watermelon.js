@@ -35,16 +35,20 @@ function inputs(){
 }
 
 function drawPurBlob(){
-    ctx.fillStyle = "pink" ;
+    ctx.fillStyle = "pink";
     ctx.beginPath();
     ctx.arc(x,y, radius,0, Math.PI * 1);
     ctx.fill();
 }
 
 function clearScreen(){
-    ctx.fillStyle = "grey";
+    ctx.fillStyle = "transparent";
     ctx.fillRect(0,0, canvas.width, canvas.height);
 }
+
+function refreshPage() {
+    window.location.reload();
+} 
 
 document.body.addEventListener('keydown', keyDown);
 document.body.addEventListener('keyup', keyUp);
