@@ -68,7 +68,7 @@ if(rightPressed) {
     ctx.fillStyle = "magenta";
 }
     ctx.beginPath();
-    ctx.arc(x,y, radius,0, Math.PI * 2);
+    ctx.arc(x, y, radius, 0, Math.PI * 2);
     ctx.fill();
 }
 
