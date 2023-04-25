@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    
+<script>
+
+    person = {
+        "name": "Benkku",
+        "age": 16,
+        "dogs": 0
+    }
+
+    person["sound"] = function() {
+        console.log("no");
+    }
+
+    //////////////////////////////////
+
+    var name = "Benkku"
+
+    // Function
+    function something() { }
+
+    var obj = {
+        "name": "Benkku", // Property
+        "sound": function() { // Method
+        }
+    }
+
+
+    /////////////////////////////////
+    person.sound = function() {
+    console.log(this.name);
+}
+
+    console.log(this.name); {
+}
+    function sound()
+        person.sound()
+    console.log(person.sound)
+
+    /////////////////////////////////
+
+    person.getDogs = function() {
+    alert(this.name + " has " + this.dogs + " dogs")
+
+    function getDogs()
+    
+    person.getDogs()
+    console.log(getDogs)
+}
+    ////////////////////////////////
+
+    var benkku = {
+        "name": "Benkku", // Property
+        "sound": function() { // Method
+            console.log("sound")
+
+        },
+        "age": 16,
+        "dogs": 0
+    }
+
+    benkku.dogs // 0
+    benkku.sound // No
+
+    // Object syntax
+    var objectName = {
+        "key": "value",
+        "key2": "value2",
+    }
+
+</script>
+
+</body>
+</html>
