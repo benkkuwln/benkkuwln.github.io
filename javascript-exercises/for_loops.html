@@ -12,12 +12,25 @@
 
     // FOR LOOP
 
-    var names = ["Benkku", "Benjamin", "Benis", "Benjaministeri"]
+    var words = "The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.".split(" ")
+
+    //function toEmailAddress(name) {
+    //    return name.toLowerCase() + "@gmail.com"
+    //}
 
     // i = interval
-    for(var i = 0; i < names.length; i++) {
-        var currentName = names[i]
-        console.log(currentName)
+    for(var i = 0; i < words.length; i++) {
+        var currentEmail = words[i].toLowerCase() + "@gmail.com"
+
+        if(i % 2 == 0) {
+            continue;
+        }
+
+    //    if(i==10) {
+    //        break;
+    //    }
+
+        console.log(i, currentEmail)
         // i = i + i
     }
 
