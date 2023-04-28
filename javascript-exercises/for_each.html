@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Each</title>
+</head>
+<body>
+    
+<h1>Each List</h1>
+
+<ul>
+    <li class="js-text">1</li>
+    <li class="js-text">2</li>
+    <li class="js-text">3</li>
+    <li class="js-text">4</li>
+    <li class="js-text">5</li>
+    <li class="js-text">6</li>
+    <li class="js-text">7</li>
+    <li class="js-text">8</li>
+    <li class="js-text">9</li>
+    <li class="js-text">11</li>
+    <li class="js-text">12</li>
+    <li class="js-text">13</li>
+    <li class="js-text">14</li>
+    <li class="js-text2">15</li>
+    <li class="js-text2">16</li>
+    <li class="js-text2">17</li>
+    <li class="js-text2">18</li>
+    <li class="js-text2">19</li>
+    <li class="js-text2">20</li>
+    <li class="js-text2">21</li>
+    <li class="js-text2">22</li>
+    <li class="js-text2">23</li>
+    <li class="js-text2">24</li>
+    <li class="js-text2">25</li>
+    <li class="js-text2">26</li>
+    <li class="js-text2">27</li>
+    <li class="js-text2">28</li>
+    <li class="js-text2">29</li>
+    <li class="js-text2">30</li>
+</ul>
+
+<script>
+
+var lis = document.querySelectorAll(".js-text")
+
+lis.forEach(function(node, index){
+    node.innerText = (index / 3) + "aaa"
+})
+
+var lis = document.querySelectorAll(".js-text2")
+
+lis.forEach(function(node, index){
+    node.innerText = (index * 3) + "bbbb"
+})
+
+</script>
+    
+</body>
+</html>
