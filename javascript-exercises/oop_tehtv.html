@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP tehtv</title>
+</head>
+<body>
+<h1>Your input information</h1>
+<h2></h2>
+
+<script>
+   
+   class userInfo {
+    constructor(name, age, color) {
+        this.age = Number(age);
+        this.name = name;
+        this.color = color;
+    }
+    makeSound(info) {
+        info.innerText = this.name +", "+ this.age + ", "+ this.color;
+    }
+}
+
+var benkku = new userInfo
+(prompt("What's your name?"),
+prompt("How old are you?"),
+prompt("What is your favorite color?"));
+
+benkku.makeSound(document.querySelector("h2"));
+
+</script>
+
+</html>
