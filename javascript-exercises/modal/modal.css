@@ -1,0 +1,46 @@
+body {
+    background-color: #869788;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    overflow: auto;
+    background-color: #a1c287;
+    padding-top: 10px;
+    border: 7px;
+    border-style: ridge;
+    border-radius: 30px;
+    border-color:#5e7760;
+}
+
+.close {
+    float: right;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.gigachad {
+    width: 400px;
+}
+
+.text {
+    color: #5e7760;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    padding-left: 65px;
+    font-size: xx-large;
+    text-shadow: 2px 2px #131a14;   
+}
+
+.explanation {
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #5e7760;
+    text-shadow: 2px 2px #131a14;
+}
