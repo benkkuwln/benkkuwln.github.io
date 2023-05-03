@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Literal Exercise</title>
+    <link rel="stylesheet" href="object_literals.css">
+</head>
+<body>
+    
+    <h1>Object Literal Exercise</h1>
+    <h2 id="h2"></h2>
+
+    <script>
+
+        const details = {
+            "firstName": prompt ("Input your first name"),
+            "lastName": prompt ("Input your last name"),
+            "personGender": prompt ("Input your gender"),
+            "personAge": prompt ("Input your age")
+        }
+
+            const h2 = document.getElementById("h2");
+            h2.innerHTML = `Welcome ${details.firstName} ${details.lastName}! Your gender is ${details.personGender}, and your age is ${details.personAge}.`;
+
+    </script>
+
+</body>
+</html>
