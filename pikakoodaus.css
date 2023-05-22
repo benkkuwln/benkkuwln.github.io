@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(109, 106, 106);
+    background-image: linear-gradient(#3fab00, #00ad9f)
+}
+
+h2 {
+    color: #5eff00;
+    text-shadow: 2px 2px black;
+}
+
+h1 {
+    color: #00ff55;
+    text-shadow: 2px 2px black;
+}
+
+p {
+    color: #00ffea;
+    text-shadow: 1px 2px #06064e;
+    font-size: 30px;
+}
+
+.codechad {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.cplusplus, .javascript, .c-sharp, .php, .css {
+    width: 100px;
+}
+
+.container {
+    font-family: arial;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
