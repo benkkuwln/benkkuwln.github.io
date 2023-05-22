@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+</head>
+<body>
+
+    <h1>Fetch</h1>
+    
+    <script>
+
+        //const luke = {}
+        
+        //AJAX = Asynchronous JavaScript and XML//
+
+        //console.log("Before")//
+        fetch('https://swapi.dev/api/people/1')
+            .then(function(response) {
+            //console.log("Then #1")//
+                return response.json()
+            })
+            .then(function(res) {
+                //console.log("Then #2")//
+                luke = res
+                //const [movie1, movie2, movie3, ...movies] = luke.films
+                //console.log(movie2)
+                //console.log(luke)//
+
+                luke.films.forEach(function(url, index) {
+                    console.log(index, url)
+                })
+            })
+            //console.log("After")
+            //console.log("LUKE", luke)
+    </script>
+
+</body>
+</html>

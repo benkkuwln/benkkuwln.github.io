@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructing</title>
+</head>
+<body>
+    <script>
+
+        var arr = ["Benkku", "Benis", "Benjaministeri", "Banan", "Benkuuver"]
+        //const benkku = arr[0]
+        //const benis = arr[1]
+
+        //let [benkku, benis, benjaministeri] = arr
+
+        //var fullName = prompt("What is your FULL name?") //string
+        //Benjamin Wallenius
+        //let [firstName, lastName] = fullName.split(' ')
+        //  fullName = fullName.split(' ')
+        // const firstName = fullName
+
+        let [benkku, benis, benjaministeri, ...rest] = arr 
+        console.log(rest)
+
+        //console.log(firstName, " is the first name")
+        //console.log(lastName, " is the last name")
+
+        const person = {
+            "first_name_for_the_user": "DEFINITELY NOT BENKKU",
+            "age": 16,
+            "dogs": 0,
+            "food": "lasaga",
+            "color": red
+        }
+
+
+        //let {
+        //    name,
+        //    food,
+        //    color = "blue",
+        //    ...rest
+        //} = person
+        //console.log("Name is ", name)
+        //console.log("Food is " food)
+
+
+
+        let {
+            first_name_for_the_user: firstName,
+            food
+        } = person
+        console.log("Name is ", firstName)
+        console.log("Food is ", food)
+
+
+    </script>
+</body>
+</html>

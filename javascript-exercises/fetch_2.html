@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Kenobi</title>
+</head>
+<body>
+
+    <h1>Fetch Kenobi</h1>
+    <ul id="myList"></ul>
+
+<script>
+
+        let displayList = ['Apples', 'Oranges', 'Grapes', 'Berries', 'Watermelon'];
+
+        fetch(`https://swapi.dev/api/people/10/`)
+        .then(function(response){
+            return response.json()
+        })
+    .then((data) => {
+        var list = document.getElementById("myList");
+        data.results.forEach((item) => {
+            displayList.push(item.name);
+            let li = document.createElement("li");
+            li.innerText = item.name;
+            list.appendChild(li);
+        })
+        console.log(displayList)
+    })
+    .catch((err) => {
+        console.log(`Error fetching: ${err}`)
+    });
+
+</script>
+
+</body>
+</html>
