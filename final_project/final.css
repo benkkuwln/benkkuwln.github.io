@@ -1,17 +1,39 @@
 body {
-    background-color: #6268c5;
+    background-color: #999eeb;
     text-align: center;
 }
 
 .letter {
-    font-size: 80px;
-    font-family: 'Pacifivo', cursive;
-    display: inline-block;
+    font-size: 100px;
+    font-family: 'Lucida Handwriting', cursive;
     color: #1037a3;
     transition: all 300ms ease-in-out;
 }
 
 .letter.active {
-    transform: scale(2) rotate(360deg);
+    text-transform: capitalize;
     color: #062783;
+}
+
+.tooltip {
+    text-align: left;
+    font-size: 25px;
+    color: #95b2ff;
+    background: -webkit-linear-gradient(#6d0848, #0b105f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box {
+    background-color: #c3c1ff;
+    width: 400px;
+    border: 10px solid #7673c7;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.letter, .tooltip, .box {
+    display: inline-block;
 }
