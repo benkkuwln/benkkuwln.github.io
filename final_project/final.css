@@ -1,0 +1,17 @@
+body {
+    background-color: #6268c5;
+    text-align: center;
+}
+
+.letter {
+    font-size: 80px;
+    font-family: 'Pacifivo', cursive;
+    display: inline-block;
+    color: #1037a3;
+    transition: all 300ms ease-in-out;
+}
+
+.letter.active {
+    transform: scale(2) rotate(360deg);
+    color: #062783;
+}
