@@ -1,0 +1,38 @@
+body {
+    background-color: #defad7;
+}
+
+.box {
+    text-align: center;
+ 
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a {
+    font-size: 50px;
+}
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
