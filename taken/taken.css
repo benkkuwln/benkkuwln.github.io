@@ -1,0 +1,16 @@
+body {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.hidden { display: none; }
+.visible { display: block; }
