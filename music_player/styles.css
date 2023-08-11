@@ -20,17 +20,10 @@ body {
     border-radius: 2rem;;
 }
 
-/* img {
+ img {
     width: 50%;
     border-radius: 2rem;
 }
-*/
-
-img {
-    width: 50%;
-    border-radius: 2rem;
-}
-
 
 #controls {
     border: 1px lightslategray solid;
