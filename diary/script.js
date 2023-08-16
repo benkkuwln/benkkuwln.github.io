@@ -4,14 +4,14 @@ const canvas = document.getElementById('canvas1');
 //context variable
 const ctx = canvas.getContext('2d');
 canvas.width = 2560;
-canvas.height = 9200;
+canvas.height = 7680;
 
 // global settings
 ctx.lineWidth = 10;
 const gradient1 = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
 gradient1.addColorStop('0.2', '#0349fc');
 gradient1.addColorStop('0.4', '#c203fc');
-gradient1.addColorStop('0.6', '#ff00b7');
+// gradient1.addColorStop('0.6', '#ff00b7');
 gradient1.addColorStop('0.8', '#ff005d');
 gradient1.addColorStop('1.0', '#ff0019');
 // const gradient2 = ctx.createRadialGradient(0, 0, canvas.width * 0.5, canvas.height * 0.5, 70, canvas.width * 0.5, canvas.height * 0.5, 200,);
@@ -29,7 +29,7 @@ class Line {
         this.history = [{x: this.x, y: this.y}];
         this.lineWidth = Math.floor(Math.random() * 15 + 1);
         this.hue = Math.floor(Math.random() * 360);
-        this.maxLength = Math.floor(Math.random() * 10 + 10);
+        this.maxLength = Math.floor(Math.random() * 20 + 10);
         this.speedX = Math.random() * 5 - 2.5;
         this.speedY = -5;
         this.lifeSpan = this.maxLength * 5;
@@ -77,7 +77,7 @@ class Line {
 }
 
 const linesArray = [];
-const numberOfLines = 100;
+const numberOfLines = 30;
 for (let i = 0; i < numberOfLines; i++){
     linesArray.push(new Line(canvas));
 }
