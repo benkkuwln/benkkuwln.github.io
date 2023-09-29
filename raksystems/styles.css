@@ -12,3 +12,6 @@ h1 {
     width: 2560px;
     height: 100px;
 }
+.a.navbar-brand {
+    color: blue;
+}
