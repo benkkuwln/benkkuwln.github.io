@@ -6,3 +6,9 @@ body {
 h1 {
     font-size: 50px;
 }
+
+#background {
+    object-fit: cover;
+    width: 2560px;
+    height: 100px;
+}
