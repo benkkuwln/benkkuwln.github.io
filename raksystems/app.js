@@ -30,7 +30,7 @@ function showStories() {
     html += `
               <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
                       <div class="card-body">
-                          <h6 class="card-title">Day ${index + 1}</h6>
+                          <h4 class="card-title">Day ${index + 1}</h4>
                           <p class="card-text"> ${element}</p>
                           <button id="${index}"onclick="deleteStory(this.id)" class="btn btn-primary">Delete Story</button>
                       </div>
