@@ -13,7 +13,7 @@ addBtn.addEventListener("click", function (e) {
   storiesObj.push(addTxt.value);
   localStorage.setItem("stories", JSON.stringify(storiesObj));
   addTxt.value = ""; //to make the text blank after clicking the button
-  console.log(storiesObj);
+  //console.log(storiesObj);
   showStories();
 });
 
@@ -40,7 +40,7 @@ function showStories() {
   if (storiesObj.length != 0) {
     storiesElm.innerHTML = html;
   } else {
-    storiesElm.innerHTML = `Nothing to show! Use "Write a story" section above to write your story.`;
+    storiesElm.innerHTML = `Use "Add a story" section above to write your story.`;
   }
 }
 
