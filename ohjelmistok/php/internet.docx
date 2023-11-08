@@ -1,0 +1,26 @@
+1. Mitä tekee selain (browser)?
+Olemalla tietokoneohjelma, joka antaa käyttäjän katsoa ja lähettää tekstiä, kuin kuvien jako ja verkkosivujen selailu.
+
+2. Mitä tekee palvelin (webserver)?
+Palvelin eli webserver vastaannottaa pyyntöjä käyttäjältä ja palauttaa vastaukset pyynnöille.
+
+3. Miten selain ja palvelin viestivät toisilleen (request/response)?
+HTTP eli Hypertext Transfer Protocolia käyttäen. Selain lähettää pyyntöjä palvelimelle, kun sitten palvelin vastaa pyyntöihin.
+
+4. Mikä on IP -osoite?
+Laitteen tai verkkosivun numeerinen tunniste.
+
+5. Mikä on Luksian verkkosivujen IP -osoite?
+77.86.191.59
+
+6. Miten tietokoneet tietävät mikä IP -osoite on varattu nimelle https://www.presidentti.fi
+DHCP:n avulla.
+
+7. Selitä lyhyesti mitä seuraava URL osoite tarkoittaa? http://someserver.com/tutorial/introduction.html
+Se on linkki introduction.html ohje sivulle someserver palvelimessa.
+
+8. Miten selaimessa voidaan tallentaa tietoja eri sivukäyntien välillä?
+Esimerkiksi evästeiden avulla.
+
+9. Miten palvelimella voidaan tallentaa tietoja eri sivukäyntien välillä?
+Hyödyntämällä evästeitä mitkä tallentuu käyttäjän tietokoneelle.
