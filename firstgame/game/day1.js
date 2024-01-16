@@ -27,7 +27,7 @@ const levelCfg = {
     '(' :  [sprite('1')],
     ')' :  [sprite('3')],
     '-' :  [sprite('13')],
-    '+' :  [sprite('15')]
+    '+' :  [sprite('15')],
 }
 
 addLevel(map, levelCfg)
