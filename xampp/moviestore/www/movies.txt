@@ -1,0 +1,6 @@
+Title,Director,Actors,Duration,TOP,Quality
+Oppenheimer,"Christopher Nolan",Cillian Murphy & Emily Blunt,181m,5
+Blade Runner,"Ridley Scott",Harrison Ford & Sean Young,117m,5
+The Empire Strikes Back,"Irvin Kershner",Mark Hamill & Harrison Ford,127m,5
+Stay,"Marc Forster",Ryan Gosling & Ewan McGregor,99m,5
+Black Swan,"Darren Aronofsky",Natalie Portman & Mila Kunis,108m,5

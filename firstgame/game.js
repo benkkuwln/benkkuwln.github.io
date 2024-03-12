@@ -50,7 +50,7 @@ scene("game", () => {
             pos(i * 24, height() - 24),
         ]);
     }
-    // player
+        // player
     const player = add([
         sprite("player"),
         pos(100, 0),
@@ -77,7 +77,11 @@ scene("game", () => {
             player.jump(1000);
         }
     }
-    onKeyPress("space", jump);
+    onKeyPress("space", () => {
+        if (player.isGrounded()) {
+            player.jump();
+        }
+    });
 
     function spawnCrystal() {
         if (GAME_ON) {

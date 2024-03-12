@@ -1,0 +1,22 @@
+body {
+background-color:gainsboro;
+font-size: larger;
+}
+
+#outer-box {
+    padding-top:200px;
+}
+
+#box {
+    width: 300px;
+    border: 15px solid gray;
+    border-radius: 10px;
+    padding: 50px;
+    margin: auto;
+}
+
+button {
+    font-size: 20px;
+    background-color:black;
+    color:white;
+}
