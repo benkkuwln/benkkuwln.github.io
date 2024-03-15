@@ -1,11 +1,3 @@
-// Google tag (gtag.js)
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EYT8XCNP0L"></script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-EYT8XCNP0L');
-
 showStories();
 
 // Store to Local storage function
