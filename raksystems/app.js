@@ -40,7 +40,7 @@ function showStories() {
   if (storiesObj.length != 0) {
     storiesElm.innerHTML = html;
   } else {
-    storiesElm.innerHTML = `Use "Add a story" section above to write your story.`;
+    storiesElm.innerHTML = `Use the "Add to Diary" section above to display your local diary.`;
   }
 }
 
